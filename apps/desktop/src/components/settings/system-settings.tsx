@@ -1,7 +1,6 @@
 import { platform } from "@tauri-apps/plugin-os";
 import { useMemo } from "react";
 import { useTranslation } from "react-i18next";
-import { NOOP } from "@/lib/constants";
 import { usePersistedStore } from "@/lib/store";
 import type { SystemSetting } from "@/types/settings";
 import SettingCard from "./setting-card";
