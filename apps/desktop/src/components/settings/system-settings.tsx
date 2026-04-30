@@ -5,6 +5,8 @@ import { usePersistedStore } from "@/lib/store";
 import type { SystemSetting } from "@/types/settings";
 import SettingCard from "./setting-card";
 
+const NOOP = () => {};
+
 const getSystemSettings = (
   t: (key: string) => string,
   isLinux: boolean,
